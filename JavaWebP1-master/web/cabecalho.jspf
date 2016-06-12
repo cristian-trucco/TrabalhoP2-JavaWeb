@@ -1,0 +1,30 @@
+
+<html>
+<head>
+	<title> Loja de Robos</title>
+	<meta charset="UTF-8">
+	<link href=".bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href=".bootstrap/css/loja.css" rel="stylesheet">
+        
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.jsp">Skynet</a>
+			</div>
+			<div>
+				<ul class="nav navbar-nav">
+					<li><a href="ListaRobos.jsp">Lista Robôs </a></li>
+					<li><a href="MostraCarrinho.jsp">Mostrar Carrinho </a></li>
+					<li><a href="sobre.jsp">Sobre a Empresa </a></li>
+                                        <li><a href="AuthenticLogin.jsp" button type="button" class="btn btn-danger"/>Sair </a></li>
+                                        
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class=" container">
+		<div class="principal">
